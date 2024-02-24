@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+#parallax{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100%;
+}
+
+#parallax img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.zoom-in-zoom-out{
+    color: white;
+    font-size: 10rem;
+    text-shadow: 5px 5px #ff0000;
+    font-family: Poppins,"sans-serif";
+    text-align: center;
+    position: relative;
+    top: 12%;
+    letter-spacing: 4px;
+    text-shadow: tea;
+    animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.3, 0.3);
+    }
+    70% {
+      transform: scale(0.6, 0.6);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+#container{
+    background-color: #000000;
+    color: #fff;
+    padding: 5rem 0px ;
+    
+}
+
+#adv_time{
+    padding: 0px 7rem;
+    font-family: Poppins,"sans-serif";
+    font-size: 5rem;
+}
+
+.text{
+    margin: 5rem 0px;
+    padding: 0px 90px;
+    font-size: 1.5rem;
+    font-family: Poppins;
+}
+
+.Halloween{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Halloween1{
+    background-image: url(sports-211.png);
+}
+.Halloween2{
+    background-image: url(sports-222.png);
+}
+.Halloween3{
+    background-image: url(sports-233.png);
+}
+
+.Halloween h2{
+    color: rgba(0, 0, 0, 0.841);
+    font-size: 3rem;
+    font-family: Poppins,"sans-serif";
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 0.5rem 2rem;
+}
